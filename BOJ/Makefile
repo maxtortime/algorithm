@@ -3,4 +3,4 @@ CC=clang++
 all:
 	@echo "make [problem num]"
 %:
-	$(CC) -O2 -std=c++11 -o exec -Wno-unused-result $@.cc
+	$(CC) -std=c++14 -o exec -O2 -Wall -lm -DONLINE_JUDGE $@.cc
