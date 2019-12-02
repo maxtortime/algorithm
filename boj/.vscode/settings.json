@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "xiosbase": "cpp"
-    }
+    },
+    "python.pythonPath": "C:\\Users\\maxto\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
 }
