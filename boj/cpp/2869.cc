@@ -10,7 +10,7 @@ int main() {
     int a,b,v;
 
     cin >> a >> b >> v;
-
-    cout << round((double) (v-a) / (double) (a-b)) + 1;
+    cout << (v-b-1) / (a-b) + 1 << '\n';
+    
     return 0;
 }
